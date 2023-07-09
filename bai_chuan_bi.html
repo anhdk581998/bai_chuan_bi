@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài chuẩn bị</title>
+</head>
+<body style='font-size: larger'>
+<h1>
+    BIỂU MẪU(form)
+</h1>
+<p>
+    - Biểu mẫu (form) là cơ chế cho
+    phép người dùng nhập dữ liệu và
+    gửi về server <br>
+    - Chẳng hạn, chúng ta có form đăng
+    nhập, form khảo sát, form tìm
+    kiếm… <br>
+    - Một form có thể bao gồm nhiều
+    trường nhập dữ liệu khác nhau <br>
+</p>
+<h1>
+    THẺ FORM
+</h1>
+<p>
+    - Thẻ form được sử dụng để tạo một form <br>
+    - Thuộc tính action có giá trị là một URL, quy định nơi dữ liệu được
+    gửi đến <br>
+    - Thuộc tính name quy định tên của form, sau đó có thể được dung để
+    truy xuất đến các giá trị trong form <br>
+    - Thẻ fieldset và legend được sử dụng để nhóm các trường dữ liệu trong form <br>
+</p>
+<h1>
+    POST và GET
+</h1>
+<p>
+    - Thuộc tính method được sử dụng để quy định cách thức dữ liệu được
+    gửi lên server <br>
+    - Khi nào thì sử dụng GET hoặc POST?<br>
+    GET: <br>
+    Dữ liệu được gửi đi sẽ hiển thị trên thanh địa chỉ
+    của trình duyệt <br>
+    Không nên sử dụng để gửi các dữ liệu nhạy cảm
+    (chẳng hạn như mật khẩu) <br>
+    Thường được sử dụng để gửi những dữ liệu nhỏ <br>
+    POST <br>
+    Dữ liệu được gửi đi KHÔNG hiển thị trên thanh địa
+    chỉ của trình duyệt <br>
+    Được sử dụng để gửi các dữ liệu nhạy cảm <br>
+    Không hạn chế dung lượng dữ liệu gửi đi. Thường
+    được sử dụng để gửi dữ liệu lớn lên server. <br>
+</p>
+<h1>
+    INPUT
+</h1>
+<p>
+    - Thẻ input được dùng để tạo các trường nhập dữ liệu thông dụng mà
+    chúng ta thường thấy <br>
+    - Thuộc tính name: tên của trường dữ liệu <br>
+    - Thuộc tính disabled: vô hiệu hóa trường dữ liệu, không cho người
+    dùng tương tác <br>
+    - Thuộc tính value: giá trị của trường dữ liệu <br>
+    - Thuộc tính type: loại trường dữ liệu (text, password…) <br>
+    - Lưu ý: Dữ liệu được gửi lên server dưới dạng các cặp tên-giá trị <br>
+</p>
+<h1>
+    Input type: Text
+</h1>
+<p>
+    Input type: text được sử dụng để nhập dữ liệu chuỗi ngắn, chẳng
+    hạn như tên, địa chỉ…
+</p>
+<h1>
+    Input type: Password
+</h1>
+<p>
+    Input type: password được sử dụng để nhập password, chẳng hạn
+    như trong form đăng ký người dùng, hoặc form đăng nhập…
+</p>
+<h1>
+    Input type: Submit
+</h1>
+<p>
+    • Input type: submit được sử dụng để tạo một nút nhấn, khi người
+    dung nhấn vào nút submit thì dữ liệu sẽ được gửi lên server
+</p>
+<h1>
+    Input type: Reset
+</h1>
+<p>
+    Input type: reset được sử dụng để xóa các dữ liệu mà người dùng vừa
+    mới nhập vào trong form, tất cả các trường dữ liệu sẽ quay trở về dữ
+    liệu mặc định trước đó
+</p>
+<h1>
+    Input type: Radio
+</h1>
+<p>
+    • Input type: radio được sử dụng để cho phép người dùng lựa chọn
+    MỘT trong số các giá trị cho trước
+</p>
+<h1>
+    Input type: Checkbox
+</h1>
+<p>
+    • Input type: checkbox được sử dụng để cho phép người dùng lựa chọn
+    KHÔNG, MỘT, hoặc NHIỀU giá trị cho trước
+</p>
+<h1>
+    Input type: Button
+</h1>
+<p>
+    Input type: button được sử dụng để tạo một nút, nút này có thể được
+    gắn với sự kiện của Javascript để xử lý các thao tác của người dùng
+</p>
+<h1>
+    Các loại input khác
+</h1>
+<h1>
+    Thẻ select và option
+</h1>
+<p>
+    - Thẻ select và option được sử dụng để cho phép người dung lựa
+    chọn từ một danh sách cho trước. Trường nhập dữ liệu này còn được
+    gọi là dropdown hoặc combobox <br>
+    - So sánh với input[radio] thì dropdown chiếm ít không gian hơn nhưng
+    lại yêu cầu người dùng phải nhấn chuột thì mới hiển thị đầy đủ các
+    danh sách <br>
+</p>
+<h1>
+    Textarea
+</h1>
+<p>
+    - Thẻ textarea được sử dụng để nhập dữ liệu dạng text lớn, chẳng
+    hạn như nội dung của một bài báo, mô tả của một sản phẩm… <br>
+    - Các thuộc tính quan trọng của thẻ textarea: <br>
+    - rows: số lượng dòng (chiều cao)<br>
+    - cols: số lượng cột (chiều rộng) <br>
+</p>
+<h1>
+    Bảng (Table)
+</h1>
+<p>
+    • Bảng được sử dụng để thể hiện dữ liệu dưới dạng hàng và cột <br>
+    • Sử dụng bảng khi muốn hiển thị một danh sách các đối tượng với
+    nhiều thuộc tính khác nhau <br>
+    • Cách thành phần của bảng: <br>
+    • Cột (column) <br>
+    • Dòng (row) <br>
+    • Đường viền (border) <br>
+    • Tiêu đề (header) <br>
+    • Các thẻ được dùng đẻ tạo bảng: <br>
+table, tr, td, th <br>
+    • table: Khai báo một bảng <br>
+    • tr: Khai báo một dòng <br>
+        • th: Khai báo một ô tiêu đề <br>
+            • td: Khai báo một ô dữ liệu <br>
+</p>
+</body>
+</html>
